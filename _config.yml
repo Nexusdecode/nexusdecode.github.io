@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Hagura - Light!
-baseurl: https://nexusdecode.github.io
+baseurl: /
 email: your@email.com
 
 
@@ -10,7 +10,7 @@ highlighter: rouge
 markdown: kramdown
 
 
-paginate: 2
+paginate: 4
 
 
 # Tracker
