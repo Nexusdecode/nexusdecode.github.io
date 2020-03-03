@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Best Udemy courses of Aug 2014 for Free'
 date: 2014-08-10T03:26:00+01:00
 draft: false
