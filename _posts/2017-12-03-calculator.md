@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'Bitcoin Calculator'
 date: 2013-12-24T14:57:00+01:00
 draft: false
