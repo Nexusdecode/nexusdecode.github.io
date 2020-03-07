@@ -48,3 +48,7 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  
+  
+gems: 
+   - jekyll-sitemap
