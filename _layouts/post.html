@@ -9,17 +9,6 @@ layout: default
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
   <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
- <script>
-      var inlineScript   = document.createElement("script");
-      inlineScript.type  = "text/javascript";
-      inlineScript.text  = '<!--google_ad_client = "ca-pub-xxx"; google_ad_slot = "xxx"; google_ad_width = xxx; google_ad_height = xxx;//-->' 
-      document.getElementByClass("post").appendChild(inlineScript);
-      
-      var externalScript   = document.createElement("script");
-      externalScript.type  = "text/javascript";
-      externalScript.src = "http://pagead2.googlesyndication.com/pagead/show_ads.js";
-      document.getElementByClass("post").appendChild(externalScript);
-    </script>
   {{ content }}
 <a href="https://www.bitsler.com/?ref=CyberGeek" target="_blank"><img src="https://www.bitsler.com/bimages/general/dark/10.png" alt="Bitsler Casino" /></a>
   <!-- POST NAVIGATION -->
