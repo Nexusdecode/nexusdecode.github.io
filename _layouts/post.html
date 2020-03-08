@@ -9,8 +9,7 @@ layout: default
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
   <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
- 
-  <div id='adsense-content' style='display:block;text-align: center;'>
+ <div id='adsense-content' style='display:block;text-align: center;'>
 &lt;ins class=&quot;adsbygoogle&quot;
      style=&quot;display:block; text-align:center;&quot;
      data-ad-layout=&quot;in-article&quot;
@@ -32,45 +31,40 @@ layout: default
      (adsbygoogle = window.adsbygoogle || []).push({});
 &lt;/script&gt;
 </div>
-</b:if>
-<div id='adsense-target'>
-<data:post.body/>
-<div div='adsense-content' style='display:block;text-align: center'>
-</div></div>
 <script type='text/javascript'>
 function insertAfter(addition,target) {
 var parent = target.parentNode;
 if (parent.lastChild == target) {
-parent.appendChild(addition); 
+parent.appendChild(addition);
 } else {
 parent.insertBefore(addition,target.nextSibling);
 }
 }
-var adscont = document.getElementById(&quot;adsense-content&quot;);
-var target = document.getElementById(&quot;adsense-target&quot;);
-var linebreak = target.getElementsByTagName(&quot;br&quot;);
-if (linebreak.length &gt; 0){
-insertAfter(adscont,linebreak[1]);
+var adscont = document.getElementById("adsense-content");
+var target = document.getElementById("adsense-target");
+var linebreak = target.getElementsByTagName("br");
+if (linebreak.length > 0){
+insertAfter(adscont,linebreak[0]);
 }
 </script>
 <script type='text/javascript'>
 function insertAfter2(addition2,target2) {
 var parent = target.parentNode;
 if (parent.lastChild == target) {
-parent.appendChild(addition); 
+parent.appendChild(addition);
 } else {
 parent.insertBefore(additionn,targett.nextSibling);
 }
 }
-var adscont = document.getElementById(&quot;adsense-content2&quot;);
-var target = document.getElementById(&quot;adsense-target&quot;);
-var linebreak = target.getElementsByTagName(&quot;br&quot;);
-if (linebreak.length &gt; 0){
+var adscont = document.getElementById("adsense-content2");
+var target = document.getElementById("adsense-target");
+var linebreak = target.getElementsByTagName("br");
+if (linebreak.length > 0){
 insertAfter(adscont,linebreak[4]);
 }
 </script>
   {{ content }}
-  <div id='adsense-content' style='display:block;text-align: center;'>
+ <div id='adsense-content' style='display:block;text-align: center;'>
 &lt;ins class=&quot;adsbygoogle&quot;
      style=&quot;display:block; text-align:center;&quot;
      data-ad-layout=&quot;in-article&quot;
@@ -92,40 +86,35 @@ insertAfter(adscont,linebreak[4]);
      (adsbygoogle = window.adsbygoogle || []).push({});
 &lt;/script&gt;
 </div>
-</b:if>
-<div id='adsense-target'>
-<data:post.body/>
-<div div='adsense-content' style='display:block;text-align: center'>
-</div></div>
 <script type='text/javascript'>
 function insertAfter(addition,target) {
 var parent = target.parentNode;
 if (parent.lastChild == target) {
-parent.appendChild(addition); 
+parent.appendChild(addition);
 } else {
 parent.insertBefore(addition,target.nextSibling);
 }
 }
-var adscont = document.getElementById(&quot;adsense-content&quot;);
-var target = document.getElementById(&quot;adsense-target&quot;);
-var linebreak = target.getElementsByTagName(&quot;br&quot;);
-if (linebreak.length &gt; 0){
-insertAfter(adscont,linebreak[1]);
+var adscont = document.getElementById("adsense-content");
+var target = document.getElementById("adsense-target");
+var linebreak = target.getElementsByTagName("br");
+if (linebreak.length > 0){
+insertAfter(adscont,linebreak[0]);
 }
 </script>
 <script type='text/javascript'>
 function insertAfter2(addition2,target2) {
 var parent = target.parentNode;
 if (parent.lastChild == target) {
-parent.appendChild(addition); 
+parent.appendChild(addition);
 } else {
 parent.insertBefore(additionn,targett.nextSibling);
 }
 }
-var adscont = document.getElementById(&quot;adsense-content2&quot;);
-var target = document.getElementById(&quot;adsense-target&quot;);
-var linebreak = target.getElementsByTagName(&quot;br&quot;);
-if (linebreak.length &gt; 0){
+var adscont = document.getElementById("adsense-content2");
+var target = document.getElementById("adsense-target");
+var linebreak = target.getElementsByTagName("br");
+if (linebreak.length > 0){
 insertAfter(adscont,linebreak[4]);
 }
 </script>
