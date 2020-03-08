@@ -3,7 +3,7 @@ description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url:
 baseurl: ""
-paginate_path: "/page:num/"
+paginate_path: "/:num/"
 permalink: /:title/
 
 markdown: kramdown
