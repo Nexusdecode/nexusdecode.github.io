@@ -10,11 +10,11 @@ title: Long Haul
       <li>
         <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <a href="https://www.bitsler.com/?ref=CyberGeek" target="_blank"><img src="https://www.bitsler.com/bimages/general/dark/8.png" alt="Bitsler Casino" /></a>
         <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
       </li>
     {% endfor %}
   </ul>
-  <a href="https://www.bitsler.com/?ref=CyberGeek" target="_blank"><img src="https://www.bitsler.com/bimages/general/dark/8.png" alt="Bitsler Casino" /></a>
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
